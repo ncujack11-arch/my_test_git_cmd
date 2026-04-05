@@ -15,18 +15,6 @@ int main(void)
 
 	return 0;
 }
-//SCBbase   E000ED00
 
-//	uint32_t base = APP_BASE_ADDRESS;
-//	uint32_t sp = *(uint32_t *)(base + 0);
 
-//	uint32_t pc = *(uint32_t *)(base + 4);
-//	typedef void (*app_func_t)(void);
-//	app_func_t app_func = (app_func_t)pc;
-
-//	__set_MSP(sp);//换栈操作，危险系数高，不建议使用
-//	app_func();
-/*
-上一段代码
-*/
 
